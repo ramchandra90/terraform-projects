@@ -1,6 +1,6 @@
 resource "aws_security_group" "allow_ssh_terraform" {
   name = var.sg_name
-    description = var.sg_description
+  description = var.sg_description
 
     egress {
     from_port        = 0
